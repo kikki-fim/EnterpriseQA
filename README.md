@@ -251,23 +251,23 @@ npm run dev
 
 ## 功能截图
 
+### 登录页面
+![登录页面](docs/images/1.jpg)
+
 ### 首页仪表盘
-![首页仪表盘](docs/images/1.jpg)
+![首页仪表盘](docs/images/2.jpg)
 
-### 智能问答
-![智能问答](docs/images/2.jpg)
+### 侧边栏收缩展示
+![侧边栏收缩展示](docs/images/3.jpg)
 
-### 知识库管理
-![知识库管理](docs/images/3.jpg)
-
-### 文档上传与管理
+### 文档管理
 ![文档管理](docs/images/4.jpg)
 
-### 对话历史
-![对话历史](docs/images/5.jpg)
+### 文档上传
+![文档上传](docs/images/5.jpg)
 
-### 用户管理
-![用户管理](docs/images/6.jpg)
+### 智能问答
+![智能问答](docs/images/6.jpg)
 
 ---
 
