@@ -1,4 +1,4 @@
-# EnterpriseQA 🏢
+# EnterpriseQA 
 
 **企业级 RAG 智能问答系统**
 
@@ -6,20 +6,20 @@
 
 ---
 
-## ✨ 功能特性
+## 功能特性
 
-- 🔍 **智能问答** — 基于 RAG 架构，结合企业知识库精准回答用户问题，并标注参考来源
-- 📚 **知识库管理** — 支持创建多个独立知识库，按业务场景分类管理企业文档
-- 📄 **多格式文档支持** — 支持 PDF、Word（.docx）、Markdown、TXT 四种常见文档格式的上传与解析
-- 🧠 **本地化部署** — 使用 Ollama 本地运行大语言模型（Qwen3），数据不出内网，安全可控
-- 💬 **对话历史** — 完整记录问答历史，支持会话级对话回溯
-- 👥 **用户权限体系** — 基于 JWT 的身份认证，区分管理员与普通用户角色
-- 📊 **数据统计面板** — 可视化展示知识库、文档、问答等运营数据
-- 🎨 **现代化前端界面** — Vue 3 + Element Plus 构建的响应式 Web 界面
+- **智能问答** — 基于 RAG 架构，结合企业知识库精准回答用户问题，并标注参考来源
+- **知识库管理** — 支持创建多个独立知识库，按业务场景分类管理企业文档
+- **多格式文档支持** — 支持 PDF、Word（.docx）、Markdown、TXT 四种常见文档格式的上传与解析
+- **本地化部署** — 使用 Ollama 本地运行大语言模型（Qwen3），数据不出内网，安全可控
+- **对话历史** — 完整记录问答历史，支持会话级对话回溯
+- **用户权限体系** — 基于 JWT 的身份认证，区分管理员与普通用户角色
+- **数据统计面板** — 可视化展示知识库、文档、问答等运营数据
+- **现代化前端界面** — Vue 3 + Element Plus 构建的响应式 Web 界面
 
 ---
 
-## 🏗️ 技术架构
+##技术架构
 
 ```
 ┌─────────────────────────────────────────────────────┐
@@ -68,7 +68,7 @@
 
 ---
 
-## 📁 项目结构
+## 项目结构
 
 ```
 EnterpriseQA/
@@ -129,7 +129,7 @@ EnterpriseQA/
 
 ---
 
-## 🚀 快速开始
+## 快速开始
 
 ### 环境要求
 
@@ -152,7 +152,7 @@ ollama pull qwen3-embedding:4b
 ollama serve
 ```
 
-> ⚠️ 确保 Ollama 服务在 `http://localhost:11434` 正常运行
+> 确保 Ollama 服务在 `http://localhost:11434` 正常运行
 
 ### 2️⃣ 初始化后端
 
@@ -201,7 +201,7 @@ npm run dev
 
 ---
 
-## 🔄 RAG 工作流程
+## RAG 工作流程
 
 ```
 用户提问
@@ -231,7 +231,7 @@ npm run dev
 
 ---
 
-## ⚙️ 配置说明
+## 配置说明
 
 主要配置项位于 `server/config.py`，可通过环境变量覆盖：
 
@@ -249,29 +249,29 @@ npm run dev
 
 ---
 
-## 📸 功能截图
+## 功能截图
 
 ### 首页仪表盘
-![首页仪表盘](docs/images/p1.jpg)
+![首页仪表盘](docs/images/1.jpg)
 
 ### 智能问答
-![智能问答](docs/images/p2.jpg)
+![智能问答](docs/images/2.jpg)
 
 ### 知识库管理
-![知识库管理](docs/images/p3.jpg)
+![知识库管理](docs/images/3.jpg)
 
 ### 文档上传与管理
-![文档管理](docs/images/p4.jpg)
+![文档管理](docs/images/4.jpg)
 
 ### 对话历史
-![对话历史](docs/images/p5.jpg)
+![对话历史](docs/images/5.jpg)
 
 ### 用户管理
-![用户管理](docs/images/p6.jpg)
+![用户管理](docs/images/6.jpg)
 
 ---
 
-## 🤝 贡献指南
+## 贡献指南
 
 欢迎提交 Issue 和 Pull Request！
 
@@ -283,13 +283,13 @@ npm run dev
 
 ---
 
-## 📄 许可证
+## 许可证
 
 本项目基于 [MIT License](LICENSE) 开源。
 
 ---
 
-## 🙏 致谢
+## 致谢
 
 - [LangChain](https://github.com/langchain-ai/langchain) — RAG 应用开发框架
 - [Ollama](https://github.com/ollama/ollama) — 本地大语言模型运行工具
@@ -301,5 +301,5 @@ npm run dev
 ---
 
 <p align="center">
-  Made with ❤️ by <a href="https://github.com/Kikki-Fim">Kikki-Fim</a>
+  Made with by <a href="https://github.com/Kikki-Fim">Kikki-Fim</a>
 </p>
