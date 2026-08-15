@@ -123,7 +123,6 @@ EnterpriseQA/
 │   └── chroma_data/            # ChromaDB 持久化数据
 │
 ├── .gitignore
-├── LICENSE
 └── README.md
 ```
 
